@@ -5,8 +5,8 @@ Este é um aplicativo WPF para gerenciar tarefas, desenvolvido usando C# e .NET. 
 
 ## Pré-requisitos
 - [Visual Studio 2019 ou superior](https://visualstudio.microsoft.com/)
+- [.NET framework 4.8 ou superior](https://dotnet.microsoft.com/download)
 - [.NET SDK 6.0 ou superior](https://dotnet.microsoft.com/download)
-- [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - [Git](https://git-scm.com/)
 
 ## Configuração do Ambiente
@@ -15,3 +15,6 @@ Este é um aplicativo WPF para gerenciar tarefas, desenvolvido usando C# e .NET. 
 ```sh
 git clone https://github.com/seu-usuario/TaskManager.git
 cd TaskManager
+
+![Interface Usuário](imagem/TaskMangement.png)
+![Interface Usuário Nova Tarefa ](imagem/TaskNewTarefa.png)
