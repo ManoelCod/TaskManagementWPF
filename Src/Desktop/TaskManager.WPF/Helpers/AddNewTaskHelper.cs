@@ -54,7 +54,7 @@
                 }
                 catch (FormatException)
                 {
-                    validationResult.Message = "SP podajemy po przecinku jako liczba!";
+                    validationResult.Message = "SP é dado após uma vírgula decimal como um número!";
                     validationResult.IsValid = false;
         
                     return validationResult;
@@ -70,7 +70,7 @@
                 };
 
                 await this.taskContract.AddAsync(newTask);
-                validationResult.Message = "Task dodano pomyślnie!";
+                validationResult.Message = "Tarefa adicionada com sucesso!\r\n";
             }
         
             return validationResult;

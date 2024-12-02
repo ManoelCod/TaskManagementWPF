@@ -14,7 +14,7 @@
 
             if (!response.IsSuccessStatusCode)
             {
-                throw new RegistrationException("Błąd serwera, sprawdź formularz!");
+                throw new RegistrationException("Erro no servidor, verifique o formulário!");
             }
         }
 
