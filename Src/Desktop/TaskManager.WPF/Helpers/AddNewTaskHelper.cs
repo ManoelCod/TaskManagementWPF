@@ -18,7 +18,7 @@
 
         public AddNewTaskHelper()
         {
-            string bearer = LoggedUser.Instance.User.Bearer;
+            string bearer = "sssff4545454kk"; // LoggedUser.Instance.User.Bearer;
 
             this.projectContract = new ProjectContract(bearer);
             this.taskContract = new TaskContract(bearer);

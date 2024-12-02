@@ -30,7 +30,7 @@
 
         <Label Grid.Row="0"
                Grid.ColumnSpan="2"
-               Content="MANAGER PANEL"  
+               Content="PAINEL DO GERENTE"  
                FontSize="20" 
                Foreground="White" 
                HorizontalAlignment="Left" 
@@ -52,15 +52,15 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Button Content="Generuj PDF"
-                    x:Name="GeneratePdfButton"
+            <Button Content="Botão GerarPdf"
+                    x:Name="BotaoGerarPdf"
                     FontSize="10"
                     Foreground="White" 
                     BorderThickness="0"  
                     Background="#FF085078"
                     Margin="10, 10, 5, 3"/>
 
-            <Button Content="Drukuj raport"
+            <Button Content="Imprimir relatório"
                     x:Name="PrintRaportButton"
                     Grid.Column="1"
                     FontSize="10"
@@ -78,7 +78,7 @@
 
         <Button x:Name="ExitButton"
                 Grid.Row="3" Grid.ColumnSpan="2"
-                Content="Wyjście"
+                Content="Saída"
                 FontSize="10"
                 Foreground="White" 
                 BorderThickness="0"  

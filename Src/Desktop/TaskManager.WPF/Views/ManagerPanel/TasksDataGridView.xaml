@@ -40,9 +40,9 @@
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
             <DataGridTextColumn Header="ID" Binding="{Binding Id}"/>
-            <DataGridTextColumn Header="NAZWA" Binding="{Binding Name}"/>
-            <DataGridTextColumn Header="OPIS" Binding="{Binding Description}"/>
-            <DataGridTextColumn Header="User" Binding="{Binding ApplicationUserId}"/>
+            <DataGridTextColumn Header="NOME" Binding="{Binding Name}"/>
+            <DataGridTextColumn Header="DESCRIÇÃO" Binding="{Binding Description}"/>
+            <DataGridTextColumn Header="USUÁRIO" Binding="{Binding ApplicationUserId}"/>
         </DataGrid.Columns>
     </DataGrid>
 

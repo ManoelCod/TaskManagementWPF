@@ -24,5 +24,10 @@ namespace TaskManager.WPF.Views
         {
             InitializeComponent();
         }
+
+        private void Projects_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

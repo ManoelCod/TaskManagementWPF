@@ -30,11 +30,11 @@
     <DataGrid GridLinesVisibility="Horizontal" Grid.Row ="0" x:Name="EndedTasks" AutoGenerateColumns="False"  IsReadOnly="true" Height="auto" Style="{DynamicResource columnStyle}">
         <DataGrid.Columns>
             <DataGridTextColumn Header="ID" Binding="{Binding Id}"/>
-            <DataGridTextColumn Header="NAZWA" Binding="{Binding Name}"/>
-            <DataGridTextColumn Header="DATA ROZPOCZĘCIA" Binding="{Binding StartTime}"/>
-            <DataGridTextColumn Header="DATA ZAKOŃCZENIA" Binding="{Binding EndTime}"/>
-            <DataGridTextColumn Header="OPIS" Binding="{Binding Description}"/>
-            <DataGridTextColumn Header="ID UŻYTKOWNIKA" Binding="{Binding ApplicationUserId}"/>
+            <DataGridTextColumn Header="NOME" Binding="{Binding Name}"/>
+            <DataGridTextColumn Header="DATA DE INÍCIO" Binding="{Binding StartTime}"/>
+            <DataGridTextColumn Header="DATA DE TÉRMINO" Binding="{Binding EndTime}"/>
+            <DataGridTextColumn Header="DESCRIÇÃO" Binding="{Binding Description}"/>
+            <DataGridTextColumn Header="ID DO USUÁRIO" Binding="{Binding ApplicationUserId}"/>
         </DataGrid.Columns>
     </DataGrid>
 </UserControl>

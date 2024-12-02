@@ -34,7 +34,7 @@
 
         <Button x:Name="YesButton"
                 Grid.Row="4" Grid.Column="1"  
-                Content="Tak"
+                Content="Sim"
                 FontSize="10"
                 Foreground="White" 
                 BorderThickness="0"  
@@ -44,7 +44,7 @@
 
         <Button x:Name="NoButton"
                 Grid.Row="4" Grid.Column="3"  
-                Content="Nie"
+                Content="Não"
                 FontSize="10"
                 Foreground="White" 
                 BorderThickness="0"  
@@ -66,7 +66,7 @@
                FontWeight="Bold" Margin="0,7,0,5" Height="38" Width="304" />
 
         <TextBlock x:Name="ErrorTextBox"
-                   Text="Czy na pewno chcesz usunąć ten projekt?"
+                   Text="Tem certeza de que deseja excluir este projeto?"
                    Grid.Row="1"
                    Grid.Column="1"
                    HorizontalAlignment="Center"

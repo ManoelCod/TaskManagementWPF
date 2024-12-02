@@ -39,12 +39,12 @@
         </Grid.RowDefinitions>
 
         <Label Grid.Column="1" Grid.Row="1" Content="ID:"  FontWeight="Bold" Margin="3"/>
-        <Label Grid.Column="1" Grid.Row="2" Content="Nazwa:"  FontWeight="Bold" Margin="3"/>
-        <Label Grid.Column="1" Grid.Row="3" Content="Priorytet:"  FontWeight="Bold" Margin="3"/>
+        <Label Grid.Column="1" Grid.Row="2" Content="Nome:"  FontWeight="Bold" Margin="3"/>
+        <Label Grid.Column="1" Grid.Row="3" Content="Prioridade:"  FontWeight="Bold" Margin="3"/>
         <Label Grid.Column="1" Grid.Row="4" Content="Story points:"  FontWeight="Bold" Margin="3"/>
         <Label Grid.Column="1" Grid.Row="5" Content="ID projektu:"  FontWeight="Bold" Margin="3"/>
-        <Label Grid.Column="1" Grid.Row="6" Content="Data rozpoczęcia:" Grid.ColumnSpan="2" FontWeight="Bold" Margin="3"/>
-        <Label Grid.Column="1" Grid.Row="7" Content="Opis:"  FontWeight="Bold" Margin="3"/>
+        <Label Grid.Column="1" Grid.Row="6" Content="Data começar:" Grid.ColumnSpan="2" FontWeight="Bold" Margin="3"/>
+        <Label Grid.Column="1" Grid.Row="7" Content="Descrição:"  FontWeight="Bold" Margin="3"/>
 
         <Label Grid.Column="3" Grid.Row="1" x:Name="IdTextBox" Margin="3"/>
         <TextBox Grid.Column="3" Grid.Row="2" x:Name="NameTextBox" Margin="3"/>
@@ -56,7 +56,7 @@
 
         <Button x:Name="SaveButton"
                 Grid.Row="8" Grid.Column="1"  
-                Content="Zapisz"
+                Content="Salvar"
                 FontSize="10"
                 Foreground="White" 
                 BorderThickness="0"  
@@ -65,7 +65,7 @@
 
         <Button x:Name="CancelButton"
                 Grid.Row="8" Grid.Column="3"  
-                Content="Wyjdź"
+                Content="Cancelar"
                 FontSize="10"
                 Foreground="White" 
                 BorderThickness="0"  

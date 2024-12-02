@@ -51,7 +51,7 @@
         <Label Grid.Column="0"
                Grid.Row="0"
                Grid.ColumnSpan="2"
-               Content="BŁĄD"  
+               Content="ERRO"  
                FontSize="20" 
                Foreground="White" 
                HorizontalAlignment="Left" 
